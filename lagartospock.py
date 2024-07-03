@@ -33,7 +33,6 @@ def main():
         print(f"*Tu contrincante saca {turno_bot}*")
 
         #Reglas
-        #¿Otra forma de establecer X < Y?
         if turno_jugador == "piedra" and turno_bot == "piedra":
             print("¡Empate!")
         elif turno_jugador == "tijera" and turno_bot == "tijera":
